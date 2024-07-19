@@ -2,6 +2,8 @@
 
 This project is an automated content generation tool that generates blog content based on given topics using a language model from Hugging Face, integrated with TensorFlow. The application is built using Flask for the web interface and LangChain for managing the language model interactions.
 
+<img width="726" alt="Screenshot 2024-07-19 at 17 17 45" src="https://github.com/user-attachments/assets/dff805f4-5cb3-4322-bdc0-928e81c412a0">
+
 ## Features
 
 - Generates blog content based on user-provided topics.
@@ -62,5 +64,5 @@ generated_text = model.generate(
     num_return_sequences=1,
     temperature=0.7  # Adjust temperature here
 )
-<img width="726" alt="Screenshot 2024-07-19 at 17 17 45" src="https://github.com/user-attachments/assets/dff805f4-5cb3-4322-bdc0-928e81c412a0">
+
 
