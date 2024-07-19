@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Topics</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Input Topics for Blog Generation</h1>
+    <form action="/generate" method="post">
+        <label for="topic">Topic:</label><br>
+        <input type="text" id="topic" name="topic"><br><br>
+
+        <label for="keywords">Keywords (comma-separated):</label><br>
+        <input type="text" id="keywords" name="keywords"><br><br>
+
+        <label for="tone">Tone:</label><br>
+        <input type="text" id="tone" name="tone"><br><br>
+
+        <input type="submit" value="Generate Blog">
+    </form>
+</body>
+</html>
